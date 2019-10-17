@@ -6,7 +6,7 @@ module.exports = function(cookies, clubId, articleNo, callback){
     var iconv = require('iconv-lite');
     var options = {
         host: 'club.cyworld.com',
-        path: '/club/board/image/View.asp?club_id=' + clubId + '&item_seq=' + articleNo + '&board_no=2&cpage=1&notice=yes&search_block=1&Scpage=1&board_type=1&list_type=0&show_type=5&headtag_seq=&club_auth=0',
+        path: '/club/board/image/View.asp?club_id=' + clubId + '&item_seq=' + articleNo + '&board_no=95&cpage=1&notice=yes&search_block=1&Scpage=1&board_type=1&list_type=0&show_type=5&headtag_seq=&club_auth=0',
         method: 'POST',
         headers: {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
