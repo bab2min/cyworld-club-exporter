@@ -11,16 +11,16 @@ MIT 라이센서를 따릅니다.
 ## 필요한것은?
 - node.js * fs.writefile 함수의 인자 변경으로 인해 버전 8까지만 정상작동합니다.
 - npm modules * 아래의 모듈을 전부 깔아주셔야 정상적으로 작동합니다.
- - http
- - https
- - querystring
- - async
- - crypto
- - stream
- - fs
- - iconv-lite
- - cheerio
- - html-entities
+  - http
+  - https
+  - querystring
+  - async
+  - crypto
+  - stream
+  - fs
+  - iconv-lite
+  - cheerio
+  - html-entities
  
 ## 설정은
  - core/config.js 에서 아래의 항목을 수정하여 주세요!!
