@@ -9,7 +9,7 @@ MIT 라이센서를 따릅니다.
 다만 원 라이센스의 github 경로는 명시해주세요.
 
 ## 필요한것은?
-- node.js
+- node.js * fs.writefile 함수의 인자 변경으로 인해 버전 8까지만 정상작동합니다.
 - npm modules
  - http
  - https
