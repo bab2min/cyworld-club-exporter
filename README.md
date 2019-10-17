@@ -10,7 +10,7 @@ MIT 라이센서를 따릅니다.
 
 ## 필요한것은?
 - node.js * fs.writefile 함수의 인자 변경으로 인해 버전 8까지만 정상작동합니다.
-- npm modules
+- npm modules * 아래의 모듈을 전부 깔아주셔야 정상적으로 작동합니다.
  - http
  - https
  - querystring
